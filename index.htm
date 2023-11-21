@@ -12,61 +12,89 @@
 <body>
  <header id="main_header_new" class="redbus_header">
   <div class="rb_header ">
-      <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo" title="redBus">
-      <span class="vertical_seperator"></span>
-      <ul class="rb_verticals">
-                  <li class="rb_vertical link" id="bus_tickets_vertical" data-url="https://www.redbus.in/bus-tickets">
-                      <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking">
-                      <span class="name_rb_vertical">Bus Tickets</span>
-                  </li>
-                  <li class="rb_vertical link" id="cab_rental_vertical" data-url="https://www.redbus.in/ryde">
-                      <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" alt="Online Cab Booking" title="Online Cab Booking">
-                      <span class="name_rb_vertical">Cab Rental</span>
-                  </li>
-                  <li class="rb_vertical link" id="rail_tickets_vertical" data-url="https://www.redbus.in/railways">
-                      <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg" alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
-                      <span class="name_rb_vertical">Train Tickets</span>
-                  </li>
-      </ul>
-      <ul class="rb_secondary_items">
-          <li class="rb_secondary_item" id="help_redcare" data-isredirect="True" data-url="/info/redcare">
-            <div class="rb_main_secondary_item  link">
-              <span style="margin-top:5px;"><img src="assets/image/help.svg" width="25"/></span>
-              <span class="name_rb_secondary_item">Help</span>
-            </div>
-          </li>
-          <li class="rb_secondary_item" id="account_dd" data-isredirect="False" data-url="">
-            <div class="rb_main_secondary_item  link">
-               <i class="fa fa-user-circle-o"></i>
-              <span class="name_rb_secondary_item">Account</span>
-               <i class="fa fa-angle-down"></i>
-            </div>
-            <div class="dropdown_wrap">
-             <ul class="header_dropdown_menu">
-               <li class="header_dropdown_item" id="cancel_ticket" data-url="/Cancellation">
-                <span class="header_dropdown_item_name" data-headdispval="">Cancel Ticket</span>
-               </li>
-               <li class="header_dropdown_item" id="reschedule_ticket" data-url="/Reschedule">
-                <span class="header_dropdown_item_name" data-headdispval="">Change Travel Date</span>
-               </li>
-               <li class="header_dropdown_item" id="ticket_details" data-url="/Home/PrintTicket">
-                <span class="header_dropdown_item_name" data-headdispval="">Show My Ticket</span>
-               </li>
-               <li class="header_dropdown_item" id="smsandemail_ticket" data-url="/Home/SmsAndEmailTicket">
-                <span class="header_dropdown_item_name" data-headdispval="">Email/SMS</span>
-               </li>
-                <span class="horizontal_seperator"></span>
-               <li class="header_dropdown_item" id="user_sign_in_sign_up" data-url="">
-                <span class="header_dropdown_item_name" data-headdispval="">Login/ Sign Up</span>
-               </li>
-             </ul>
-            </div>
-          </li>
-      </ul>
+    <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo" title="redBus">
+    <span class="vertical_seperator"></span>
+    <ul class="rb_verticals">
+      <li class="rb_vertical link" id="bus_tickets_vertical" data-url="https://www.redbus.in/bus-tickets">
+          <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking">
+          <span class="name_rb_vertical">Bus Tickets</span>
+      </li>
+      <li class="rb_vertical link" id="cab_rental_vertical" data-url="https://www.redbus.in/ryde">
+          <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" alt="Online Cab Booking" title="Online Cab Booking">
+          <span class="name_rb_vertical">Cab Rental</span>
+      </li>
+      <li class="rb_vertical link" id="rail_tickets_vertical" data-url="https://www.redbus.in/railways">
+          <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg" alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
+          <span class="name_rb_vertical">Train Tickets</span>
+      </li>
+    </ul>
+    <ul class="rb_secondary_items">
+      <li class="rb_secondary_item" id="help_redcare" data-isredirect="True" data-url="/info/redcare">
+        <div class="rb_main_secondary_item  link">
+          <span style="margin-top:5px;"><img src="assets/image/help.svg" width="25"/></span>
+          <span class="name_rb_secondary_item">Help</span>
+        </div>
+      </li>
+      <li class="rb_secondary_item" id="account_dd" data-isredirect="False" data-url="">
+        <div class="rb_main_secondary_item  link">
+            <i class="fa fa-user-circle-o"></i>
+          <span class="name_rb_secondary_item">Account</span>
+            <i class="fa fa-angle-down"></i>
+        </div>
+        <div class="dropdown_wrap">
+          <ul class="header_dropdown_menu">
+            <li class="header_dropdown_item" id="cancel_ticket" data-url="/Cancellation">
+            <span class="header_dropdown_item_name" data-headdispval="">Cancel Ticket</span>
+            </li>
+            <li class="header_dropdown_item" id="reschedule_ticket" data-url="/Reschedule">
+            <span class="header_dropdown_item_name" data-headdispval="">Change Travel Date</span>
+            </li>
+            <li class="header_dropdown_item" id="ticket_details" data-url="/Home/PrintTicket">
+            <span class="header_dropdown_item_name" data-headdispval="">Show My Ticket</span>
+            </li>
+            <li class="header_dropdown_item" id="smsandemail_ticket" data-url="/Home/SmsAndEmailTicket">
+            <span class="header_dropdown_item_name" data-headdispval="">Email/SMS</span>
+            </li>
+            <span class="horizontal_seperator"></span>
+            <li class="header_dropdown_item" id="user_sign_in_sign_up" data-url="">
+            <span class="header_dropdown_item_name" data-headdispval="">Login/ Sign Up</span>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
   </div>
  </header>
  <div class="banner">
-
+  <h1 class="title">India's No. 1 Online Bus Ticket Booking Site</h1>
+  <div class="main_search_box_wraper">
+    <div class="search_box">
+      <div class="search_box_item d-flex right-border">
+        <i class="fa fa-bus"></i>
+        <div class="from_box">
+          <label>From</label><br/>
+          <input type="text" />
+        </div>
+      </div>
+      <div class="search_box_item d-flex right-border">
+        <i class="fa fa-bus"></i>
+        <div class="from_box">
+          <label>To</label><br/>
+          <input type="text" />
+        </div>
+      </div>
+      <div class="search_box_item d-flex">
+        <i class="fa fa-calendar"></i>
+        <div class="from_box">
+          <label>Date</label><br/>
+          <input type="text" />
+        </div>
+      </div>
+      <div class="search_box_item d-flex bus-btn">
+        <span>SEARCH BUSES</span>
+      </div>
+    </div>
+  </div>
  </div>
 </body>
 </html>

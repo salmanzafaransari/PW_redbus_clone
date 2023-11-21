@@ -23,6 +23,11 @@ ul{
  max-width: 1200px;
  margin: auto;
 }
+.rb_header .rb_logo {
+ width: 5rem;
+ height: 3rem;
+ cursor: pointer;
+}
 .rb_secondary_items {
  display: flex;
  margin-left: auto;
@@ -133,4 +138,76 @@ ul{
  margin-top: 100px;
  position: relative;
  z-index: 1;
+}
+.banner .title{
+ color: rgb(255, 255, 255);
+ font-size: 32px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ position: absolute;
+ top: 48px;
+ display: flex;
+ -webkit-box-pack: center;
+ justify-content: center;
+ width: 100%;
+}
+.main_search_box_wraper{
+ display: flex;
+ width: 100%;
+ -webkit-box-pack: center;
+ justify-content: center;
+ position: absolute;
+ top: 110px;
+}
+.search_box{
+ display: flex;
+ position: relative;
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 12px, rgba(0, 0, 0, 0.05) 0px 0px 0px;
+ border-radius: 32px;
+ cursor: pointer;
+ background: rgb(255, 255, 255);
+ overflow: hidden;
+}
+.search_box .search_box_item{
+ padding: 30px 30px;
+}
+.search_box_item i{
+ font-size: 32px;
+ padding-top: 10px;
+ padding-right: 10px;
+ color: #605f5f;
+}
+.right-border{
+ border-right: 1px solid #ababab;
+}
+.d-flex{
+ display: flex;
+ align-items: center;
+}
+.from_box {
+ position: relative;
+}
+.from_box label {
+ font-size: 21px;
+ position: absolute;
+ padding-top: 10px;
+ transition: .5s ease-out;
+}
+
+.from_box input {
+ border: none;
+}
+
+.form_box input:focus label{
+ position: relative;
+}
+
+.bus-btn{
+ background-color: rgb(216, 78, 85);
+}
+.bus-btn span{
+ color:#fff;
+ font-size: 21px;
+ font-weight: 600;
 }
