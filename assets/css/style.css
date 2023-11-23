@@ -263,14 +263,33 @@ input:focus + label {
  position: absolute;
  top: 300px;
 }
-.slider{
+.slider_spacing{
+ padding: 20px 40px;
+}
+.slder-top{
  background-color: #fff;
- width: 100%;
- 
+ padding: 40px;
+ border-radius: 40px;
+}
+.title2{
+ font-size: 32px;
+ line-height: 39px;
+ color: #4a4a4a;
 }
 .title2, .btn-view{
  width: 50%;
+
 }
 .btn-view button{
  float: right;
+ padding: 10px 20px;
+ font-size: 18px;
+ color: rgb(16, 52, 217);
+ font-weight: 600;
+ border-radius: 1.5rem;
+ border: 1px solid rgb(170, 170, 170);
+ font-size: 18px;
+ cursor: pointer;
+ text-decoration: none;
+ background-color: #fff;
 }
